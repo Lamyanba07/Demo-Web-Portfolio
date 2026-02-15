@@ -76,3 +76,16 @@ body{
 .col-3{
     grid-column: span 3;
 }
+
+@media(max-width: 1024px){
+    .container{
+        flex-direction: column;
+    }
+    .right{
+        width: 95%;
+    }
+    .child-imgs{
+        grid-row: span 1;
+        grid-column: span 3;
+    }
+}
